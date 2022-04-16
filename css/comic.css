@@ -299,8 +299,9 @@ h1{
 }
 .body-3{
     height:120px;
-    border-top-left-radius: 44%;
-    border-top-right-radius: 40%;
+    width: 130px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
 }
 
 .body::after{
@@ -341,6 +342,22 @@ h1{
     border: 1px solid black;
     border-radius: 0 0 30px 30px;
 }
+.buttons{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.button{
+    width: 9px;
+    height: 7px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #D66938;
+    margin-top: 18px;
+}
 .body-decoration-bottom{
     position: absolute;
     margin-top: 138px;
@@ -380,6 +397,13 @@ h1{
     transform: rotate(-90deg);
     z-index: -1;
 }
+.arm-right-3{
+    position:absolute;
+    margin-top: 51px;
+    margin-left: 136px;
+    transform: rotate(-90deg);
+    z-index: -1;
+}
 .sleeve{
     width: 25px;
     height:34px;
@@ -416,6 +440,9 @@ h1{
     height: 65px;
     margin-top: 200px;
 }
+.legs-3{
+    margin-left: -10px;
+}
 .left-leg{
     position:absolute;
     border:1px solid black;
@@ -445,6 +472,17 @@ h1{
 }
 .right-leg-decoration-2{
     background-color: #e7aa39;
+}
+.left-leg-decoration-3{
+    margin-left: -15px;
+    width: 45px;
+    background-color: #699C61;
+}
+.right-leg-decoration-3{
+    width: 40px;
+    margin-left: 32px;
+    background-color: #699C61;
+    border-left: 1px;
 }
 
 .shoes{
@@ -490,6 +528,9 @@ h1{
     text-decoration-color: black;
     text-decoration-line: underline;
     animation: leash  1s linear infinite;
+}
+.leash-3{
+    margin-top: 360px;
 }
 
 /* PLANT */
