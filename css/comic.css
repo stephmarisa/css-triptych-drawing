@@ -199,6 +199,92 @@ h1{
     transform: rotate(25deg);
 }
 
+/* hair 3 */
+.background-hair-3{
+    position:absolute;
+    top: -8px;
+    border-top: 26px solid black;
+    border-radius: 50%;
+    width: 80px;
+    height:65px;
+}
+.hair-3{
+    position:absolute;
+    top: -15px;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+.hair-3-bang{
+    position:absolute;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background-color:black;
+    width: 60px;
+    height: 27px;
+    top: 18px;
+    left:-5px;
+}
+.ponytail{
+    position: absolute;
+    margin-left: 30%;
+    background-color: black;
+    width: 15px;
+    height: 25px;
+    top: -5px;
+}
+.hairtie{
+    content:"";
+    background-color: #F4C748;
+    position:absolute;
+    width:15px;
+    height:6px;
+    top:2px;
+    left:14px;
+    border:1px solid black;
+}
+.strands-set{
+    position:absolute;
+    top: -10px;
+}
+.strand{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border-top: 10px solid black;
+}
+.strand-1-left{
+    transform: rotate(-20deg);
+    top: 2px;
+    left:-5px;
+}
+.strand-2-left{
+    transform: rotate(15deg);
+    top:-5px;
+    left: -15px;
+}
+.strand-1-right{
+    transform: rotate(20deg);
+    top: 2px;
+    left:15px;
+}
+.strand-2-right{
+    transform: rotate(-15deg);
+    top:-5px;
+    left: 25px;
+}
+.strand-1-top{
+    transform: rotate(50deg);
+    top:-15px;
+    left:-15px;
+    width: 40px;
+}
+
+
+
 
 .eyes{
     display: flex;
@@ -650,6 +736,20 @@ h1{
     display:flex;
     justify-content:space-between;
 }
+.strands-set-plant{
+    position:absolute;
+    left:10px;
+}
+.trunk{
+    background-color: #F4C748;
+    position:absolute;
+    width:13px;
+    height:50px;
+    top:10px;
+    left:26px;
+    border:1px solid black;
+}
+
 
 /* Plant pot */
 .plant-pot{
@@ -738,6 +838,7 @@ h1{
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
+
 
 /* ANIMATIONS */
 @keyframes leash {
